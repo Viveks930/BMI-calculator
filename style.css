@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    /* font-weight: 700; */
+    text-shadow: 2px 2px 3px rgb(255, 0, 170);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    height: calc(vh);
+    flex-direction: column;
+    background-color: #212121;
+}
+body div{
+    margin: 1vh;
+}
+.weight{
+    color: white;
+}
+.input {
+    /* border: 2px solid red; */
+    padding: 5px;
+}
+.inputs{
+    margin: 10px;
+}
+input{
+background-color: rgb(255, 92, 92);
+color: yellow;
+font-weight: bolder;
+/* height: 4vh; */
+}
+.result{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+#result{
+    /* border: 2px solid red; */
+    width: 5.6rem;
+    padding: 0px;
+    margin: 0px;
+}
+.button{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 15%;
+}
+.button:hover{
+    transition: all 0.2s ease-out;
+    transform: scale(1.2);
+    background-color: rgb(255, 0, 93);
+    color: white;
+    cursor: pointer;
+    /* animation:trans 2s ease-out 0.01s 1 forwards alternate; */
+}
+
+.show{
+    /* border: 2px solid red; */
+    width: 2.4rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#suggest{
+    /* border: 2px solid red; */
+    width: 13rem;
+    height: 3rem;
+    margin: 0px 15px;
+}
