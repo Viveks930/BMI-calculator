@@ -22,7 +22,7 @@ function BMI(b) {
         suggest.style.color="#f705ff"
         }
         if (BMI > 18.5 && BMI < 24.9) {
-            suggest.innerHTML = "You're Helathy you should maintain this weight"
+            suggest.innerHTML = "You're Healthy you should maintain this weight"
             suggest.style.color="#1cff03"
         }
         if (BMI > 25.0 && BMI < 29.9) {
